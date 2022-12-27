@@ -5,11 +5,12 @@ import itertools
 
 uniqueId = itertools.count()
 
+
 def aStar(graph, start, goal, h, neighborsOf, IMPASSABLE):
     """
     aStar - returns the shortest route in a graph from the start to the goal
 
-    graph       - a list of the nodes in the graph 
+    graph       - a list of the nodes in the graph
     start       - the index of the starting node
     goal        - the index of the goal node
     h           - a function that estimates the distance from a node to the goal. The function MUST return a value
